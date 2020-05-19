@@ -5,8 +5,10 @@
 [Vercel](https://vercel.com) にビルドすれば、無料で Discord bot の運用をしやすいのでは？  
 と思ったので TypeScript で書いてみました。
 
+→ ダメだったので [Glitch](https://glitch.com) 使いました。
+
 Ruby で書いて自鯖で動かしているものはこちら ↓  
-https://github.com/nekonenene/kizuna_bot_image
+[https://github.com/nekonenene/kizuna_bot_image](https://github.com/nekonenene/kizuna_bot_image)
 
 
 ## Dev
