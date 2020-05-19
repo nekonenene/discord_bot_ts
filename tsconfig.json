@@ -9,26 +9,15 @@
     ],
     "module": "commonjs",
     "esModuleInterop": true,
-    "noImplicitAny": true,
     "moduleResolution": "node",
-    "sourceMap": true,
+    // "sourceMap": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "outDir": "dist",
-    "baseUrl": ".",
-    "paths": {
-      "*": [
-        "node_modules/*",
-      ]
-    }
-  },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+    "removeComments": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  }
 }
