@@ -1,3 +1,4 @@
+// Ref: https://github.com/koji/typescript/blob/master/node_typescript/tsconfig.json
 {
   "compilerOptions": {
     "module": "commonjs",
