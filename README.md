@@ -1,6 +1,13 @@
-# node-js-my-template
+# Node.js Minimal Template
 
-Under construction...
+## Including Only...
+
+* Node.js 
+* TypeScript 
+* Hot reloading for development (powered by nodemon)
+
+
+If you need, you can add express, jest, etc...
 
 
 ## Dev
