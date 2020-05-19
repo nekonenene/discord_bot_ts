@@ -1,13 +1,12 @@
-# Node.js Minimal Template
+# Discord Bot using TypeScript
 
-## Including Only...
+## 動機
 
-* Node.js 
-* TypeScript 
-* Hot reloading for development (powered by nodemon)
+[Vercel](https://vercel.com) にビルドすれば、無料で Discord bot の運用をしやすいのでは？  
+と思ったので TypeScript で書いてみました。
 
-
-If you need, you can add express, jest, etc...
+Ruby で書いて自鯖で動かしているものはこちら ↓  
+https://github.com/nekonenene/kizuna_bot_image
 
 
 ## Dev
