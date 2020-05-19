@@ -15,6 +15,7 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
+    "dayjs": "^1.8.27",
     "discord.js": "^12.2.0"
   }
 }
