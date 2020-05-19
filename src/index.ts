@@ -1,7 +1,19 @@
-import http, { IncomingMessage, ServerResponse } from 'http';
+import { Client } from 'discord.js';
 
-const server = http.createServer((req: IncomingMessage, res: ServerResponse) => {
-  res.end('OK');
+const client = new Client();
+
+client.on('ready', () => {
+  console.log(`${client.user?.username} の準備ができました！`);
 });
 
-server.listen(8013);
+client.on('message', (msg) => {
+  if (msg.content === 'ping') {
+    msg.reply('pong').catch(err => {
+      console.error(err);
+    });
+  }
+});
+
+client.login(process.env.DISCORD_BOT_TOKEN).catch(err => {
+  console.error(err);
+});
