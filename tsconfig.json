@@ -1,9 +1,14 @@
 // Ref: https://github.com/koji/typescript/blob/master/node_typescript/tsconfig.json
 {
   "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "module": "commonjs",
     "esModuleInterop": true,
-    "target": "es2017",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
